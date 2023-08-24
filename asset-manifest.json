@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/agepriceinputgroup/static/css/main.5f18b871.css",
-    "main.js": "/agepriceinputgroup/static/js/main.8595a6c1.js",
-    "index.html": "/agepriceinputgroup/index.html",
-    "main.5f18b871.css.map": "/agepriceinputgroup/static/css/main.5f18b871.css.map",
-    "main.8595a6c1.js.map": "/agepriceinputgroup/static/js/main.8595a6c1.js.map"
+    "main.css": "/age-price-input-group/static/css/main.5f18b871.css",
+    "main.js": "/age-price-input-group/static/js/main.8595a6c1.js",
+    "index.html": "/age-price-input-group/index.html",
+    "main.5f18b871.css.map": "/age-price-input-group/static/css/main.5f18b871.css.map",
+    "main.8595a6c1.js.map": "/age-price-input-group/static/js/main.8595a6c1.js.map"
   },
   "entrypoints": [
     "static/css/main.5f18b871.css",
