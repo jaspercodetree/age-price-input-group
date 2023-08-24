@@ -1,0 +1,60 @@
+.priceInputContainer {
+	width: 240px;
+
+	label {
+		color: var(--grey3);
+		cursor: pointer;
+	}
+
+	.priceInputGroup {
+		display: flex;
+		margin-top: 8px;
+
+		.currency {
+			border: 1px solid var(--grey2);
+			border-right: 0;
+			border-radius: 4px 0 0 4px;
+			height: 40px;
+			width: 60px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--grey1);
+		}
+
+		.priceInput {
+			width: 100%;
+			border: 1px solid var(--grey2);
+			border-radius: 0 4px 4px 0;
+			text-indent: 8px;
+
+			&::placeholder {
+				color: var(--grey2);
+			}
+		}
+
+		.errBorder {
+			border: 1px solid var(--danger);
+		}
+	}
+
+	.errMsgWrap {
+		width: 100%;
+		background-color: var(--dangerLight);
+		border-radius: 4px;
+
+		h6 {
+			font-weight: normal;
+			margin: 0;
+			padding: 6px 8px;
+			color: var(--danger);
+		}
+	}
+
+	.hintWord {
+		text-align: right;
+		color: var(--grey3);
+		font-weight: normal;
+		margin: 0;
+	}
+}

@@ -1,0 +1,57 @@
+.ageGroupPriceListContainer {
+	.ageGroupPriceCard {
+		.headerWrap {
+			display: flex;
+			justify-content: space-between;
+
+			.deleteCardBtn {
+				display: flex;
+				align-items: center;
+				color: var(--danger);
+				cursor: pointer;
+				background-color: transparent;
+				border: none;
+				font-weight: bold;
+			}
+		}
+
+		.listWrap {
+			display: flex;
+			gap: 16px;
+		}
+
+		padding-bottom: 16px;
+		border-bottom: 1px solid var(--grey1);
+
+		// 第一個card沒有移除按鈕
+		&:first-of-type {
+			.deleteCardBtn {
+				display: none;
+			}
+		}
+
+		// 最後一個card沒有分隔線
+		&:last-of-type {
+			border-bottom: none;
+		}
+	}
+
+	.addCardBtn {
+		display: flex;
+		align-items: center;
+		color: var(--success);
+		cursor: pointer;
+		background-color: transparent;
+		border: none;
+		font-weight: bold;
+		margin-top: 20px;
+
+		svg {
+			margin-right: 4px;
+		}
+
+		.disabledColor {
+			color: var(--grey2);
+		}
+	}
+}

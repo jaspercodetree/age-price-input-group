@@ -1,0 +1,39 @@
+/* Color */
+:root {
+	--success: #48d1cc;
+	--danger: #f74424;
+	--dangerLight: #fde7e3;
+	--grey1: #eee;
+	--grey2: #ccc;
+	--grey3: #999;
+
+	/* font */
+	--mainFontSize: 10px;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+		'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: var(--mainFontSize);
+}
+
+input,
+select {
+	outline: none;
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-color: transparent;
+	background-image: url('./assets/image/downArrow.png');
+	background-repeat: no-repeat;
+	background-position-x: calc(100% - 8px);
+	background-position-y: 50%;
+	padding-right: 1.5em;
+}
